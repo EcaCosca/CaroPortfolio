@@ -9,9 +9,9 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Bienvenido, permitame presentarme,',
+  title: 'Hola, soy',
   name: 'Carolina Coscarelli',
-  subtitle: 'Emprendedora serial, conductora, productora, mamá de Felicitas y mucho mucho más...',
+  subtitle: 'Emprendedora serial, periodista, conductora, productora, mamá de Felicitas y mucho mucho más...',
   cta: 'Más?',
 };
 
@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'Sobran los Motivos',
     info: 'Dos sillones rojos son la escenografía itinerante que se traslada hacia donde el entrevistado lo desee. Así, se conforma un espacio íntimo, generando un ambiente particular, conocido por el protagonista, que permite desentrañar recuerdos y pensamientos de su historia y su presente. Ese es el objetivo de “Sobran los Motivos”.',
     info2: 'Al mismo tiempo, descubrimos juntos lugares impactantes, probablemente recónditos, muchas veces desconocidos, con el enfoque particular del programa. Creamos y recreamos un espacio de reflexión y creatividad, renovando la propuesta semana a semana, desde hace 16 años.',
-    url: 'https://www.instagram.com/sobranlosmotivostv/',
+    url: 'https://rosario.telefe.com/vivo',
     repo: 'https://www.youtube.com/user/sobranlosmotivosTV', // if no repo, the button will not show up
   },
   {
@@ -41,7 +41,7 @@ export const projectsData = [
     title: 'Contraseña: Futbol',
     info: 'CONTRASEÑA: FUTBOL se hace todos las semanas y todos los días pensando en el fanático del fútbol que quiere ver más allá del resumen de los partidos, el televidente crítico que encuentra en este formato, un espacio muy atractivo.',
     info2: 'Otra manera de ver el fútbol. Con un sello bien rosarino en una ciudad bien futbolera.',
-    url: 'https://www.instagram.com/cfutbolok_tv/',
+    url: 'https://rosario.telefe.com/vivo',
     repo: 'https://www.youtube.com/channel/UCnsjYDAIU8xV9Wf0puiyf8Q', // if no repo, the button will not show up
   },
   {
@@ -50,7 +50,7 @@ export const projectsData = [
     title: 'Ni Más Ni Menos',
     info: 'Magazine diario con sello deportivo en RADIO LA RED. Un equipo rompe con la monotonía de las tardes. Notas, opinión, distintos segmentos, el contacto con el oyente como parte de la dinámica en un formato joven, versátil y con mucha energía para dar!',
     info2: 'Nuestro Equipo: Carolina Coscarelli, Daniel Leibovich, Roque Giordano, Hernán Cabrera, Guillermo Ferretti, Andrés Culasso, Lucas Veraldi & María Noel Do',
-    url: 'https://lared.am/',
+    url: 'http://www.laredrosario.com/',
     repo: 'https://open.spotify.com/show/0oSj6yIHjzDyyM2SVkEoSf?si=Rfd_BASSSv-ZkUgp_rQWAw&nd=1', // if no repo, the button will not show up
   },
 ];
@@ -74,6 +74,11 @@ export const footerData = {
       id: nanoid(),
       name: 'instagram',
       url: 'https://www.instagram.com/carocoscarelli/',
+    },
+    {
+      id: nanoid(),
+      name: 'facebook',
+      url: 'https://www.facebook.com/carolina.coscarelli',
     },
     {
       id: nanoid(),
